@@ -1,0 +1,23 @@
+.sections{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    margin: 50px auto;
+}
+.post,.comments{
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.comment{
+    padding: 10px;
+    margin: 20px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-bottom:1px solid gold ;
+}
